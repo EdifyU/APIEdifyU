@@ -1,6 +1,6 @@
-# Adonis API application
+# Adonis API 
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Adonis API because I am skeptical of SailsJS, after some time reading about it.
 
 1. Bodyparser
 2. Authentication
@@ -10,14 +10,21 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 
 ## Setup
 
-Use the adonis command to install the blueprint
+Install this on your machine then install the needed dependencies.
 
 ```bash
-adonis new yardstick --api-only
+# Clone to your local machine.
+git clone https://github.com/ReedemedCoders/APIEdifyU
+
+# Go to the repo
+cd APIEdifyU/restful-api
+
+# Nomemon is prefferable, 
+# or simply run (Must have adonis-cli installed: npm i -g @adonisjs/cli) 
+
+adonis serve --dev
+
 ```
-
-or manually clone the repo and then run `npm install`.
-
 
 ### Migrations
 
