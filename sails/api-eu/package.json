@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "firebase-admin": "^5.9.0",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.14",
@@ -17,7 +18,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/eddyekofo/api-eu.git"
+    "url": "git://github.com/eddyekofo94/APIEdifyU/api-eu.git"
   },
   "author": "eddyekofo",
   "license": ""
